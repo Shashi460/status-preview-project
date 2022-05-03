@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body{
+  font-size: 15px;
+  background: hsl(233, 47%, 7%);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 200px;
+}
+
+.main{
+  background: hsl(244, 38%, 16%);
+  border-radius: 10px 0 0 10px;
+}
+
+.topcontainer h1{
+  width: 60%;
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+  margin: 100px 100px 20px 50px;
+}
+
+.topcontainer h1 span{
+  color: hsl(277, 64%, 61%);
+}
+
+.topcontainer p {
+  font-family: 'Lexend Deca', sans-serif;
+  width: 70%;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0 100px 50px 50px;
+  line-height: 25px;
+}
+
+.sidecontainer {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  margin-left: 50px;
+}
+
+.sidecontainer .hero {
+  margin-right: 50px;
+}
+
+.sidecontainer .hero h1{
+  color: #fff;
+}
+
+.sidecontainer .hero p{
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.imgs {
+  z-index: 20;
+  border-radius: 0px 10px 10px 0;
+}
+
+.overlay{
+  position:absolute;
+  width: 540px;
+  height: 450px;
+  background: hsl(277, 64%, 61%);
+  top: 26.5%;
+  left: 770px;
+  z-index: 30;
+  opacity: 0.5;
+  border-radius: 0px 10px 10px 0;
+}
